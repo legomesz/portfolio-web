@@ -30,4 +30,4 @@ A aplicação apresenta:
 Após publicado na Vercel, o projeto poderá ser acessado por um link semelhante a:
 
 ```txt
-https://portfolio-web.vercel.app
+https://leogomesdev.vercel.app/
