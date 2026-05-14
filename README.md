@@ -1,73 +1,33 @@
-# React + TypeScript + Vite
+# Portfolio Web — Leonardo Gomes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido com **React**, **TypeScript**, **Vite**, **Tailwind CSS** e **Motion**, com o objetivo de apresentar minha trajetória, experiências, tecnologias utilizadas e projetos publicados no GitHub.
 
-Currently, two official plugins are available:
+O projeto foi construído como uma página moderna, responsiva e dinâmica, com integração à API do GitHub para carregar automaticamente os repositórios marcados com a topic `portfolio`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Visão geral
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este portfólio reúne informações profissionais e acadêmicas de Leonardo Gomes, estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web, backend, interfaces digitais e projetos práticos.
 
-## Expanding the ESLint configuration
+A aplicação apresenta:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- seção inicial com apresentação pessoal;
+- botão para download do currículo;
+- links para GitHub, LinkedIn e e-mail;
+- seção “Sobre mim” com trajetória e destaques;
+- projetos carregados automaticamente do GitHub;
+- tecnologias principais;
+- experiências profissionais e acadêmicas;
+- contato;
+- alternância entre tema claro e escuro;
+- navegação suave entre as seções.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Demonstração
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Após publicado na Vercel, o projeto poderá ser acessado por um link semelhante a:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```txt
+https://portfolio-web.vercel.app
