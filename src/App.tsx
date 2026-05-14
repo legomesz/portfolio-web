@@ -699,16 +699,6 @@ function App() {
               Projetos práticos, interfaces digitais e APIs.
             </p>
           </motion.div>
-
-          <motion.p
-            variants={fadeUp}
-            className={`mt-5 max-w-xl text-sm leading-7 sm:text-base ${classes.textSoft}`}
-          >
-            Sou estudante de Análise e Desenvolvimento de Sistemas e venho
-            desenvolvendo projetos para melhorar minha base em programação,
-            interfaces web e backend.
-          </motion.p>
-
           <motion.div variants={fadeUp} className="mt-8 flex flex-wrap gap-3">
             <ExternalButton
               href="#projetos"
@@ -804,13 +794,8 @@ function App() {
               </p>
 
               <p className="mt-3 text-base font-semibold">
-                Desenvolvimento web, backend com Java e organização de
+                Desenvolvimento web & backend com Java e organização de
                 interfaces.
-              </p>
-
-              <p className={`mt-3 text-sm leading-7 ${classes.textSoft}`}>
-                Meu foco é evoluir em projetos reais, melhorar minha base
-                técnica e construir aplicações mais bem estruturadas.
               </p>
             </div>
 
@@ -881,11 +866,14 @@ function App() {
               className={`mt-5 space-y-5 text-sm leading-7 sm:text-base ${classes.textSoft}`}
             >
               <p>
-                Minha trajetória passa por desenvolvimento web, portais, suporte
-                internacional, design digital e projetos acadêmicos. Essas
-                experiências me ajudaram a enxergar tecnologia de forma prática:
-                código, organização, comunicação e experiência de uso precisam
-                andar juntos.
+                Minha trajetória profissional é bastante diversificada, pois eu trabalhei com desenvolvimento web, 
+                portais, suporte internacional, design digital e projetos acadêmicos. Todas essas experiências foram 
+                muito importantes, pois me ajudaram a entender a tecnologia de uma forma mais prática. Eu aprendi que, 
+                para que algo funcione bem, é necessário que várias coisas andem juntas, como o código, a organização, 
+                a comunicação e a experiência de uso.
+                Atualmente, estou me concentrando em melhorar minhas habilidades técnicas em backend e desenvolvimento 
+                web. Meu objetivo é criar projetos que sejam realmente completos, bem estruturados e fáceis de entender.
+                 Quero que as pessoas possam usar esses projetos sem dificuldade e que eles sejam úteis para elas.
               </p>
 
               <p>
